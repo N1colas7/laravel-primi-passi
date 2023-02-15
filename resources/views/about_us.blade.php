@@ -8,7 +8,6 @@
         
     </head>
     <body>
-        <H1>Benvenuto nella prima pagina</H1>
-        <a href="/about_us">Seconda pagina</a>
+        <h1>Seconda pagina</h1>
     </body>
 </html>
