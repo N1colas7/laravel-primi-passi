@@ -17,7 +17,7 @@ Route::get('/', function () {
     return view('index');
 });
 
-Route::get('/about_us', function () {
+Route::get('/about_us', function (){
     
     $data = [
         'name' => 'Nicolas',
@@ -25,8 +25,11 @@ Route::get('/about_us', function () {
         'age' => 22
     ];
 
+    $level = 10;
+
     
-    return view('about_us', $data);
+   // return view('about_us', $data, $level);
+   return view('about_us', compact('data', 'level'));
 });
 
 Route::get('/contact', function () {

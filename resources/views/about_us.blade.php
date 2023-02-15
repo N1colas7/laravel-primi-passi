@@ -9,5 +9,12 @@
     </head>
     <body>
         <h1>Seconda pagina</h1>
+        <p>
+        <h2>Nome : {{$data['name']}}</h2>
+        <h2>Cognome : {{$data['surname']}}</h2>
+        <h2>Livello : {{$level}}</h2>
+
+
+        </p>
     </body>
 </html>
