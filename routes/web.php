@@ -18,5 +18,17 @@ Route::get('/', function () {
 });
 
 Route::get('/about_us', function () {
-    return view('about_us');
+    
+    $data = [
+        'name' => 'Nicolas',
+        'surname' => 'Dominici',
+        'age' => 22
+    ];
+
+    
+    return view('about_us', $data);
+});
+
+Route::get('/contact', function () {
+    return view('contact');
 });

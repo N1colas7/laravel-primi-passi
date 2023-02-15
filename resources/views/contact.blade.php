@@ -8,9 +8,6 @@
         
     </head>
     <body>
-        <H1>Benvenuto nella prima pagina</H1>
-        <a href="/about_us">Seconda pagina</a>
-        <a href="/contact">Terza pagina</a>
-
+        <h1>Terza pagina</h1>
     </body>
 </html>
